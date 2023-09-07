@@ -1,0 +1,78 @@
+@use "../abstract/" as *;
+
+.gradient-block-1
+{
+    background: $first-block-gradient;
+    width: 115px;
+    height: 115px;
+    transform: rotate(15deg);
+    position:absolute;
+    margin-left: 85px;
+    margin-top: -15px;
+    box-shadow: inset rgba(255, 255, 255, 0.568) 10px 10px 10px;
+    animation: infinite alternate;
+    animation-name: first-block;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes first-block 
+{
+    from{margin-top: -15px}
+    to{ margin-top: 15px;}
+}
+.gradient-block-1_particle-square
+{
+    height: 5px;
+    width: 5px;
+    background: $first-block-gradient;
+    transform: rotate(-90deg);
+    margin-left: -15px;
+}
+.gradient-block-1_particle-circle
+{
+    height: 5px;
+    width: 5px;
+    background: $first-block-gradient;
+    transform: rotate(-90deg);
+    border-radius: 10px;
+    margin-top: -15px;
+}
+
+
+.gradient-block-2
+{
+    background: $second-block-gradient;
+    width: 88px;
+    height: 88px;
+    transform: rotate(60deg);
+    position:absolute;
+    margin-left: 420px;
+    margin-top: 50px;
+    box-shadow: inset rgba(255, 255, 255, 0.568) 10px 10px 10px;
+    animation: infinite alternate;
+    animation-name: first-block;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1.5s;
+}
+.gradient-block-2_particle-square
+{
+    height: 10px;
+    position: fixed;
+    width: 5px;
+    background: $second-block-gradient;
+    transform: rotate(-90deg);
+    border-radius: 10px;
+    margin-left: 80px;
+    margin-top:-15px;
+}
+.gradient-block-2_particle-circle
+{
+    height: 5px;
+    width: 5px;
+    background: $second-block-gradient;
+    transform: rotate(-90deg);
+    border-radius: 10px;
+    margin-left: 95px;
+    margin-top:0px;
+}

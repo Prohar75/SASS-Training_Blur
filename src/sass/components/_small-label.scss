@@ -1,0 +1,10 @@
+@use "../abstract" as *;
+
+.small-label
+{
+    background: $small-text-gradient;  
+    -webkit-text-fill-color: transparent;  
+    -webkit-background-clip: text;
+    font-size: 13px;
+    margin: 100px;
+}

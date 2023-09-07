@@ -1,0 +1,23 @@
+@use "../abstract/" as *;
+
+.large-label
+{
+    -webkit-text-fill-color: transparent;  
+    -webkit-background-clip: text;
+    margin: auto;
+    font-size: 50px;
+}
+.large-label_first
+{
+    background: $large-text-gradient-2; 
+    -webkit-text-fill-color: transparent;  
+    -webkit-background-clip: text; 
+}
+.large-label_second
+{
+    background: $large-text-gradient-1; 
+    -webkit-text-fill-color: transparent;  
+    -webkit-background-clip: text;
+    margin-top: -38px;
+    margin-left: -2.4px;
+}
