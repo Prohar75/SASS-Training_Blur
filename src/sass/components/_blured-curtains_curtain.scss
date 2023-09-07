@@ -1,0 +1,11 @@
+@use "../abstract/" as *;
+
+.blured-curtains_curtain
+{
+    width: 22px;
+    height: 700px;
+    background: $curtain-gradient;
+    backdrop-filter: blur(30px);
+    margin:0px;
+    //box-shadow: inset rgba($color: #000000, $alpha: 0.1) 2px -4px 10px;
+}
